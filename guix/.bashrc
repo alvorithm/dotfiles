@@ -22,3 +22,7 @@ fi
 alias ls='ls -p --color=auto'
 alias ll='ls -l'
 alias grep='grep --color=auto'
+
+
+GUIX_PROFILE="/home/alvar/.guix-profile"
+. "$GUIX_PROFILE/etc/profile"
