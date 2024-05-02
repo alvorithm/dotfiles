@@ -39,8 +39,7 @@
   ;; under their own account: use 'guix search KEYWORD' to search
   ;; for packages and 'guix install PACKAGE' to install a package.
   (packages (append (map specification->package 
-			  '("nss-certs" ;; SSL root certificates 
-					;; NB. in base-packages since 042024
+			  '(;;"nss-certs" ;; NB. in base-packages since 042024 
 			    "git" 
 	  		    "stow" 
 	  		    "emacs-no-x-toolkit" 
